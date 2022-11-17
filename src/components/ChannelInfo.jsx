@@ -7,6 +7,7 @@ function ChannelInfo({ id, name }) {
   const { data: url } = useQuery(["channel", id], () =>
     youtube.channelImageURL(id)
   );
+
   return (
     <div>
       {url && <img src={url} alt={name} />}
