@@ -27,6 +27,7 @@ function VideosDetail() {
         <pre className="whitespace-pre-wrap">{description}</pre>
       </article>
       <section className="basis-2/6">
+        <h1 className="text-4xl font-bold ml-5 mb-5">Related</h1>
         <RelatedVideos id={video.id} />
       </section>
     </section>
