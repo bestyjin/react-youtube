@@ -1,7 +1,13 @@
 <h1>YOUTUBE with React &nbsp <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/>&nbsp<img src="https://img.shields.io/badge/Youtube-FF0000?style=flat-square&logo=Youtube&logoColor=white"/></h1>
 
 <p>Youtube 실제 API를 이용하여 가져온 Video와 관련 정보 보여주는 토이 프로젝트</p>
+<ul>
+  <li>React - ContextAPI, React Router, React Query</li>
+  <li>CSS - Tailwind</li>
+  <li>Library - axios, timeago</li>
+</ul>
 
+<br>
 <ol>
   <li>
     <h3>Video List</h3>
