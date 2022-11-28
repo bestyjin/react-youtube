@@ -2,7 +2,7 @@
 
 <p>Youtube 실제 API를 이용하여 가져온 Video와 관련 정보 보여주는 토이 프로젝트</p>
 <ul>
-  <li>React - ContextAPI, React Router, React Query</li>
+  <li>React - Context API, React Router, React Query</li>
   <li>CSS - Tailwind</li>
   <li>Library - axios, timeago</li>
 </ul>
