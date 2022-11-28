@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+<h1>YOUTUBE with React &nbsp <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/>&nbsp<img src="https://img.shields.io/badge/Youtube-FF0000?style=flat-square&logo=Youtube&logoColor=white"/></h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p>Youtube 실제 API를 이용하여 가져온 Video와 관련 정보 보여주는 토이 프로젝트</p>
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<ol>
+  <li>
+    <h3>Video List</h3>
+    <img src="https://user-images.githubusercontent.com/71006256/204166848-b6ad9e06-0675-4425-8167-e4d9718e799b.png" alt="video-list" />
+    <p>첫화면 - 인기 동영상 리스트</p>
+    <p>useQuery 이용</p>
+  </li>
+  <br>
+  <li>
+    <h3>Search</h3>
+    <img src="https://user-images.githubusercontent.com/71006256/204168895-84d96cab-98b8-4810-a38d-e2ce39b68170.png" alt="search-video" />
+    <p>검색 기능 - 검색 키워드로 이동</p>
+    <p>useNavigate로 이동</p>
+  </li>
+  <br>
+  <li>
+    <h3>Video Detail</h3>
+    <img src="https://user-images.githubusercontent.com/71006256/204169140-97ef8550-98a8-4ce1-92cc-17edb4c155ee.png" alt="video-detail" />
+    <p>Video 상세 화면 - Video 클릭 시 상세 화면으로 이동</p>
+    <p>영상, 영상 정보, 채널, 관련 영상 보여주기</p>
+    <p>useLocation으로 url에 있는 video 정보 가져오기 </p>
+  </li>
+  <br>
+  <li>
+    <h3>Video & Channel Information</h3>
+    <img src="https://user-images.githubusercontent.com/71006256/204169423-27d8dadb-52bb-4087-b98f-1facdd1a019c.png" alt="video-information" />
+    <p>Video 상세 화면 - 영상 정보 및 채널 보여주기</p>
+    <p>useQuery 이용</p>
+  </li>
+  <br>
+  <li>
+    <h3>Related Videos</h3>
+    <img src="https://user-images.githubusercontent.com/71006256/204169595-83b39dfc-4b4c-4922-83fa-93c866fe8b3d.png" alt="related-videos" />
+    <p>Video 상세 화면 - 관련 영상 리스트</p>
+    <p>useQuery 이용</p>
+  </li>
+  <br>
+</ol>
